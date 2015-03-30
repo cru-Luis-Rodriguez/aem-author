@@ -19,3 +19,5 @@ ONBUILD RUN ["python","aemInstaller.py","-i","cq-author-4502.jar","-r","author",
 
 EXPOSE 4502 8000
 ENTRYPOINT ["/aem/crx-quickstart/bin/quickstart"]
+
+#change
